@@ -45,13 +45,14 @@
                 color:#FF86A3;
                 font-family: sans-serif;
                 text-align: center;
-
                 font-size: 50px;
                 transition: transform 1s;
             }
 
             div.twist:hover{
-            transform: rotate(360deg);
+    -ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
             }
 
             
