@@ -37,6 +37,23 @@
                 padding-top: 5px;
                 font-size: 26px;
             }
+            div.twist{
+                margin:0px;
+                height: auto;
+                width: 160px;
+                margin: auto;
+                color:#FF86A3;
+                font-family: sans-serif;
+                text-align: center;
+
+                font-size: 50px;
+                transition: transform 1s;
+            }
+
+            div.twist:hover{
+            transform: rotate(360deg);
+            }
+
             
             div.secondbar{
                 background-color: transparent;
@@ -61,10 +78,10 @@
                 -webkit-transition: box-shadow .25s ease-in-out;
             }
             
-            a:link    {color:black; background-color:transparent; text-decoration:none}
-            a:visited {color:black; background-color:transparent; text-decoration:none}
-            a:hover   {color:black; background-color:transparent; text-decoration:none}
-            a:active  {color:black; background-color:transparent; text-decoration:none}
+            a:link    {color:#FF86A3; background-color:transparent; text-decoration:none}
+            a:visited {color:#FF86A3; background-color:transparent; text-decoration:none}
+            a:hover   {color:#FF86A3; background-color:transparent; text-decoration:none}
+            a:active  {color:#FF86A3; background-color:transparent; text-decoration:none}
             
             #logo{
                 width: 80%;
