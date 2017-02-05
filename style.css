@@ -46,9 +46,7 @@
                 font-family: sans-serif;
                 text-align: center;
                 font-size: 50px;
-                transition: transform 1s ease-in-out;
-                -moz-transition: transform 1s ease-in-out;
-                -webkit-transition: transform 1s ease-in-
+                transition: transform 1s;
             }
 
             div.twist:hover{
