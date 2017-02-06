@@ -276,7 +276,6 @@
                 margin-left: 20%;
                 margin-top: 20px;
 
-                
             }
 
             #images2{
@@ -292,7 +291,6 @@
                 max-width: 570px;
                 margin-top: 1px;
                 margin-bottom: 20px;
-
             }
 
             #linksimg{
@@ -300,4 +298,13 @@
                 height: 98%;
                 padding-left: 2%;
                 padding-top: 2%;
+            }
+
+            div.shadow{
+                    position: absolute;
+                    width:inherit;
+                    height: inherit;
+                    box-shadow: inset 1px 1px 20px black;
+                    top: 0;
+                    left: 0;
             }
